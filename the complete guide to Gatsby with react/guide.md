@@ -238,6 +238,7 @@ Our *index.js* file should look like this :
 
 ```js
 import React from "react"
+import {Link} from "gatsby"
 const Index = () => {
 return (
 <div>
