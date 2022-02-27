@@ -83,7 +83,7 @@ Lets do an example try to fetch google.com
 request.open('get', 'https://google.com')
 ```
 
-![cors](https://github.com/Codingforhackers/eincode_blogs/blob/main/How%20Ajax%20Works/images/Noaccess.png)
+![cors](https://github.com/Codingforhackers/eincode_blog/blob/main/How%20Ajax%20Works/Noaccess.png)
 
 you cannot fetch `https://google.com`  Google reject our request 
 
@@ -97,7 +97,7 @@ request.addEventListener('load', e => {
 })
 ```
 
-![Response](https://github.com/Codingforhackers/eincode_blogs/blob/main/How%20Ajax%20Works/images/response.jpg) 
+![Response](https://github.com/Codingforhackers/eincode_blog/blob/main/How%20Ajax%20Works/response.jpg) 
 
 The **response** property contains the data you requested from the server. This data is often called the **body** or the **payload**.
 
