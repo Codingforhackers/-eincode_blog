@@ -48,7 +48,7 @@ so check the nodejs version on your machine by
 
 `node -v`
 
-![node-v](https://github.com/Codingforhackers/eincode_blogs/blob/main/the%20complete%20guide%20to%20Gatsby%20with%20react%20/imges/nodev.jpg)
+![node-v](https://github.com/Codingforhackers/eincode_blog/blob/main/the%20complete%20guide%20to%20Gatsby%20with%20react/nodev.jpg)
 
 so in my case its `14.19.0` 
 
@@ -207,7 +207,7 @@ open your terminal and run the command :
  you can now open a browser and navigate to `http://localhost:8000/`, you should see something like this : 
 
 
- image 
+![landingpage](https://github.com/Codingforhackers/eincode_blog/blob/main/the%20complete%20guide%20to%20Gatsby%20with%20react/landingpage.png)
 
 This is the rendred version of our *index.js* page component .
 
@@ -253,3 +253,8 @@ export default Index
 
 
 As you can see the link component has a **to** this called a prop . Need to be passed to the page you want to navigate to , in our example we want to navigate to the contact page so we add **to="/contact"**
+
+Now let's open our home page and see the result .
+
+![link](https://github.com/Codingforhackers/eincode_blog/blob/main/the%20complete%20guide%20to%20Gatsby%20with%20react/link.png)
+
