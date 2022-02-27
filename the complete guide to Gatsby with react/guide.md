@@ -207,7 +207,7 @@ open your terminal and run the command :
  you can now open a browser and navigate to `http://localhost:8000/`, you should see something like this : 
 
 
-![landingpage](https://github.com/Codingforhackers/eincode_blog/blob/main/the%20complete%20guide%20to%20Gatsby%20with%20react/landingpage.png)
+![landingpage](https://github.com/Codingforhackers/eincode_blog/blob/main/the%20complete%20guide%20to%20Gatsby%20with%20react/landingpage.png.png)
 
 This is the rendred version of our *index.js* page component .
 
