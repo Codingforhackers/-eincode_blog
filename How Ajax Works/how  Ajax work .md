@@ -64,11 +64,15 @@ request.send()
 
 Here’s the entire **XMLHttpRequest** we created together.
 
-`const request = new XMLHttpRequest()
+
+
+```js
+const request = new XMLHttpRequest()
 request.addEventListener('load', e => { /* do something */ })
 request.open('get', 'https://jsonplaceholder.typicode.com/posts/1')
 request.send()
-`
+
+```
 *server must accept request*
 
 Servers can choose to accept or reject your request. If the server does not accept your request, you’ll get an error that says ***“No ‘Access-Control-Allow-Origin’*** header is present on the requested resource”.
