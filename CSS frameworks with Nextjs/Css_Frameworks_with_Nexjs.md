@@ -86,9 +86,8 @@ As you can see, we're telling TailwindCSS to check every file ending with .js or
 inside both *pages/* and *components/* directories and remove all the CSS classes that
 are not used inside of any of those files.
 
-We now only need to include the default tailwind.css CSS file on every single page of
-our application, and we're ready to start. We can do that by importing **'tailwindcss/
-tailwind.css'** inside our **pages/_app.js** file:
+We now only need to include the default *tailwind.css* file on every single page of
+our application, and we're ready to start. We can do that by importing **'tailwindcss/tailwind.css'** inside our **pages/_app.js** file:
 
 
 ```js
