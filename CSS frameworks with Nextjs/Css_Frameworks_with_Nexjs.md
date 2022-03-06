@@ -103,7 +103,7 @@ function MyApp({ Component, pageProps }) {
 export default MyApp
 
 ```
-We used tow different CSS classes; let's break them down:
+We used two different CSS classes; let's break them down:
 	
   - *bg-gray-800* : background color for this *div* will be set to **bg-gray-900**, a TailwindCSS variable that maps to the **#111927** HEX color.
 	
