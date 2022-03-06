@@ -1,5 +1,5 @@
 
-Learn how to use Modern css Frameworks like Tailwind css and Chakra ui with Nextjs 
+Learn how to use Modern css Frameworks like Tailwind css and Chakra ui with Nextjs.
 
 ![image](https://github.com/Codingforhackers/eincode_blog/blob/main/CSS%20frameworks%20with%20Nextjs/Eincode.png?raw=true)
 
@@ -37,7 +37,7 @@ using pre-made CSS classes that map CSS rules in a straightforward way.
 Its main strengths are the following:
 
   - *Framework agnostic*: You can use TailwindCSS in React, Vue, Angular, and even in plain HTML and JavaScript. It's just a set of CSS rules.
-  - *Themeable*: Just like Chakra UI, you can customize all the TailwindCSS variables to
+  - *Themeable*: You can customize all the TailwindCSS variables to
 make them match your design tokens.
   - *Dark and light theme support*: You can easily enable or disable the dark theme by modifying a specific CSS class from the *<html>* element.
   - *Mobile-ready*: You can use specific CSS classes' prefixes to apply certain rules to
