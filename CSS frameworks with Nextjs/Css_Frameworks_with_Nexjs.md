@@ -1,7 +1,7 @@
 
 Learn how to use Modern css Frameworks like Tailwind css and Chakra ui with Nextjs 
 
-[image]
+![image](https://github.com/Codingforhackers/eincode_blog/blob/main/CSS%20frameworks%20with%20Nextjs/Eincode.png?raw=true)
 
 
 ## Introduction
@@ -110,8 +110,7 @@ export default MyApp
 
 ```
 
-
-[image ]
+![tailwind](https://github.com/Codingforhackers/eincode_blog/blob/main/CSS%20frameworks%20with%20Nextjs/tailwind.png)
 
 Another way is that we just need to add the tailwind directives to our CSS.
 Inside our golbal css file **styles/global.css**, we need to add the tailwind directive.
@@ -138,7 +137,7 @@ Its main strengths are the following:
 
   - *Themeable*: The library ships with a default theme, where (for instance) buttons have a particular default background color, border radius, padding, and so on. We can always customize the default theme using Chakra UI built-in functions for editing every style of the library components.
 
-  -*Light and dark mode*: They're both supported out of the box and can rely on the user's system settings. If users set their computer to use dark mode by default, Chakra UI will load the dark theme as soon as it loads. 
+  - *Light and dark mode*: They're both supported out of the box and can rely on the user's system settings. If users set their computer to use dark mode by default, Chakra UI will load the dark theme as soon as it loads. 
 
   - *TypeScript support*: Chakra UI is written in TypeScript and provides first-class types for a beautiful developer experience.
 
@@ -169,24 +168,37 @@ export default MyApp;
 We can add some Chakra UI components :
 
 ```js
-import { VStack, Button } from '@chakra-ui/react';
+import { Wrap, WrapItem, Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react';
 
 export default function Home() {
    return (
-   <VStack padding="10">
-      <Button backgroundColor="gray.100">
-      </Button>
-      <Button backgroundColor="gray.200">
-      </Button>
-      <Button backgroundColor="gray.300">
-      </Button>
-      <Button backgroundColor="gray.400">
-      </Button>
-   </VStack>
+   <Wrap padding="10">
+	  <WrapItem>
+	    <Avatar name='Dan Abrahmov' src='https://bit.ly/dan-abramov' />
+	  </WrapItem>
+	  <WrapItem>
+	    <Avatar name='Kola Tioluwani' src='https://bit.ly/tioluwani-kolawole' />
+	  </WrapItem>
+	  <WrapItem>
+	    <Avatar name='Kent Dodds' src='https://bit.ly/kent-c-dodds' />
+	  </WrapItem>
+	  <WrapItem>
+	    <Avatar name='Ryan Florence' src='https://bit.ly/ryan-florence' />
+	  </WrapItem>
+	  <WrapItem>
+	    <Avatar name='Prosper Otemuyiwa' src='https://bit.ly/prosper-baba' />
+	  </WrapItem>
+	  <WrapItem>
+	    <Avatar name='Christian Nwamba' src='https://bit.ly/code-beast' />
+	  </WrapItem>
+	  <WrapItem>
+	    <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
+	  </WrapItem>
+	</Wrap>
    );
 }
 
 ```
 Opening the page in a web browser, we will see the following result:
 
-[image]
+![chakra](https://github.com/Codingforhackers/eincode_blog/blob/main/CSS%20frameworks%20with%20Nextjs/chakraexample.png)
