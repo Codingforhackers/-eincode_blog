@@ -23,16 +23,11 @@ and principles that we'll see in the following sections.
 
 ## Introduction to UI Frameworks
 
-Frameworks and utilities are not essential. We could build any user interface
-(despite its complexity) from scratch using vanilla JavaScript, HTML, and CSS. Still,
-we would often find ourselves using the same patterns, accessibility rules, optimizations,
-and utility functions on every user interface we build. So here comes the concept of
-a UI library.
-The idea is to abstract our most common use cases, reuse most of the code on different
-user interfaces, improve our productivity, and use well-known, tested, and themeable
-UI components.
-With **"themeable"**, we refer to those libraries and components that allow us to customize
-the color scheme, spacing, and the whole design language of a given framework.
+Frameworks and utilities are not essential. We could build any user interface (despite its complexity) from scratch using vanilla JavaScript, HTML, and CSS. Still,we would often find ourselves using the same patterns, accessibility rules, optimizations,and utility functions on every user interface we build. So here comes the concept of a UI library.
+
+The idea is to abstract our most common use cases, reuse most of the code on different user interfaces, improve our productivity, and use well-known, tested, and themeable UI components.
+
+With **"themeable"**, we refer to those libraries and components that allow us to customize the color scheme, spacing, and the whole design language of a given framework.
 
 ## TailwindCSS with Next.js
 
@@ -65,9 +60,9 @@ configuration files. We can do that by using the *tailwindcss init* command:
 
 This will create two different files:
 
- - tailwind.config.js : This file will help us configure the TailwindCSS theme,
+ - *tailwind.config.js* : This file will help us configure the TailwindCSS theme,
 unused CSS purge, dark mode, plugins, and more.
- - postcss.config.js : TailwindCSS uses PostCSS under the hood and ships
+ - *postcss.config.js* : TailwindCSS uses PostCSS under the hood and ships
 with a pre-configured postcss.config.js that we can always edit as we prefer.
 
 First of all, we want to configure TailwindCSS to remove unused CSS from the final build.
@@ -109,7 +104,14 @@ function MyApp({ Component, pageProps }) {
 export default MyApp
 
 ```
-
+We used tow different CSS classes; let's break them down:
+	
+  - *bg-gray-800* : background color for this *div* will be set to **bg-gray-900**, a TailwindCSS variable that maps to the **#111927** HEX color.
+	
+  - *text-gray-100* : text color for this *div* will be set to **text-gray-100** , a TailwindCSS variable that maps to the **#1F2937** HEX color.
+	
+Opening the page in a web browser, we will see the following result:
+	
 ![tailwind](https://github.com/Codingforhackers/eincode_blog/blob/main/CSS%20frameworks%20with%20Nextjs/tailwind.png)
 
 Another way is that we just need to add the tailwind directives to our CSS.
@@ -165,7 +167,7 @@ function MyApp({ Component, pageProps }) {
 export default MyApp;
 
 ```
-We can add some Chakra UI components :
+We can add some Chakra UI components let's open the **pages/index.js**:
 
 ```js
 import { Wrap, WrapItem, Avatar, AvatarBadge, AvatarGroup } from '@chakra-ui/react';
